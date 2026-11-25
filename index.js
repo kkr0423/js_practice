@@ -1,2 +1,6 @@
-let numbers = [1, 2, 3];
-let doubledNumbers = numbers.map((number) => number * 2);
+let result = 2 + 5;
+result = result + 3;
+result += 3;
+result -= 1;
+result=++
+console.log(result);
