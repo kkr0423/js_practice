@@ -1,6 +1,10 @@
-let result = 2 + 5;
-result = result + 3;
-result += 3;
-result -= 1;
-result=++
-console.log(result);
+const cars = [{
+  type : "Nomal", price: "Cheap"
+},
+{
+  type : "Luxuary", price: "Expensive"
+}
+]
+const prices = cars.map((car) => {
+  return cars.price
+})
